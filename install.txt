@@ -1,0 +1,40 @@
+22 November 2010 
+Marxan Tools Toolbox 0.4
+
+To install:
+1. Unzip anywhere on your machine
+2. Open ArcMap
+3. Open ArcTools
+3. Right click "ArcToolbox" and then select "Add Toolbox" and navigate to the "Marxan Tools.tbx" file
+4. Right click new toolbox, and if necessary add scripts to each individual tool
+
+REQUIREMENTS:
+- ArcGIS 9.2 or 9.3 (ArcGIS 10 not tested)
+- ArcInfo license level (for some not all tools)
+- Spatial Analyst extension (for some not all tools)
+
+The following tools are currently available:
+Planning Unit Tools:
+- Create Planning Units (creates square and hexagonal planning units)
+- Calculate Cost per PU (assigns "cost" or "prob" to planning units)
+- Assign Status to PUs (assigns "status" codes to planning units)
+Utilities
+- Batch Clip Grids (clips a batch of grids to a shapefile)
+- Batch Project Define (defines projection for a batch of files)
+
+Marxan Input File Tools:
+- Make PU.csv (makes the PU file required by Marxan)
+- Make PUVSP.csv (makes the PUVSP.csv file required by Marxan)
+- Make SPECIES.csv
+
+These tools will be added soon:
+- Make BOUND.csv (?)
+- Join solutions
+
+Additional utilities will be added when possible
+
+Developed on 9.2 and tested on 9.3
+See help for each parameter for detailed help and instructions
+
+contact:
+chorographics@gmail.com
